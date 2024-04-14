@@ -1,8 +1,11 @@
 # Use Apache HTTP Server official image
 FROM httpd:2.4
 
+# Remove the default index.html file provided by Apache
+RUN rm /usr/local/apache2/htdocs/index.html
+
 # Copy the HTML files into the container
-COPY ./index.html /usr/local/apache2/htdocs/
+COPY ./forty-jekyll-theme /usr/local/apache2/htdocs/
 
 # Install OpenSSL (if not included)
 RUN apt-get update && apt-get install -y openssl
