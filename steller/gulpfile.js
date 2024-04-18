@@ -19,16 +19,16 @@ var paths = {
         www:        './'
     },
     src: {
-        root:       '/assets',
+        root:       'steller/assets',
         html:       '/**/*.html',
-        css:        '/assets/css/*.css',
-        js:         '/assets/js/*.js',
-        vendors:    '/assets/vendors/**/*.*',
-        imgs:       '/assets/imgs/**/*.+(png|jpg|gif|svg)',
-        scss:       '/assets/scss/**/*.scss'
+        css:        'steller/assets/css/*.css',
+        js:         'steller/assets/js/*.js',
+        vendors:    'steller/assets/vendors/**/*.*',
+        imgs:       'steller/assets/imgs/**/*.+(png|jpg|gif|svg)',
+        scss:       'steller/assets/scss/**/*.scss'
     },
     dist: {
-        root:       'l/dist',
+        root:       '/dist',
         css:        '/dist/css',
         js:         '/dist/js',
         imgs:       '/dist/imgs',
