@@ -28,11 +28,11 @@ var paths = {
         scss:       'steller/assets/scss/**/*.scss'
     },
     dist: {
-        root:       '/dist',
-        css:        '/dist/css',
-        js:         '/dist/js',
-        imgs:       '/dist/imgs',
-        vendors:    '/dist/vendors'
+        root:       'steller/dist',
+        css:        'steller/dist/css',
+        js:         'steller/dist/js',
+        imgs:       'steller/dist/imgs',
+        vendors:    'steller/dist/vendors'
     }
 }
 
