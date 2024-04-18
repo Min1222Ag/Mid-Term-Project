@@ -1,7 +1,8 @@
 {
-  "name": "Steller",
+  "homepage": "https://min1222ag.github.io/Mid-Term-Project/",
+  "name": "Eunmin Kim",
   "version": "1.5.0",
-  "description": "An elegant responsive bootstrap 4.x theme.",
+  "description": "Overview of me",
   "main": "gulpfile.js",
   "author": "DevCRUD",
   "scripts": {
